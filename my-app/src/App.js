@@ -5,6 +5,8 @@ import EventsFunctional from "./components/EventsFunctional";
 import EventBinding from "./components/EventBinding";
 import ConditionalRenderingFunctional from "./components/ConditionalRenderingFunctional";
 import ConditionalRenderingClass from "./components/ConditionalRenderingClass";
+import NestingComponents from "./components/NestingComponents";
+import MethodsAsPropsParent from "./components/MethodsAsPropsParent";
 
 function App() {
   return <div className="App">
@@ -14,6 +16,8 @@ function App() {
       <EventBinding/>
       <ConditionalRenderingClass/>
       <ConditionalRenderingFunctional/>
+      <NestingComponents/>
+      <MethodsAsPropsParent/>
 
     </div>;
 }
