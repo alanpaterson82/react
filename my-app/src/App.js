@@ -14,6 +14,7 @@ import LifeCyclesCWU from "./components/LifeCyclesCWU";
 import ControlledForm from "./components/ControlledForm";
 import UncontrolledForm from "./components/UncontrolledForm";
 import { SearchBar3 } from "./components/SearchBar3";
+import HTTPRequests from "./components/HTTPRequests.js";
 
 function App() {
   return <div className="App">
@@ -32,6 +33,7 @@ function App() {
       <ControlledForm/>
       <UncontrolledForm/>
       <SearchBar3/>
+      <HTTPRequests/>
 
     </div>;
 }
