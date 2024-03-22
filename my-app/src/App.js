@@ -16,6 +16,7 @@ import UncontrolledForm from "./components/UncontrolledForm";
 import { SearchBar3 } from "./components/SearchBar3";
 import HTTPRequests from "./components/HTTPRequests.js";
 import HTTPPost from "./components/HTTPPost";
+import HTTPHooks from "./components/HTTPHooks.js";
 
 function App() {
   return <div className="App">
@@ -36,6 +37,7 @@ function App() {
       <SearchBar3/>
       <HTTPRequests/>
       <HTTPPost/>
+      <HTTPHooks/>
 
     </div>;
 }
